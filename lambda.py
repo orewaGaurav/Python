@@ -12,18 +12,18 @@
 
 
 
-l = [2,3,4,5,6,7,8,9]
-l1 = []
-for i in l:
-    l1.append(i**2)
-print(l1)
-
 # l = [2,3,4,5,6,7,8,9]
 # l1 = []
-# for i in range(0,len(l)):
+# for i in l:
 #     l1.append(i**2)
 # print(l1)
-# print(len(l))
+
+l = [2,3,4,5,6,7,8,9]
+l1 = []
+for i in range(len(l)):
+    l1.append((l[i])**2)
+print(l1)
+print(len(l))
 
 #map
 # l =[1,2,3,4,5,6,7,8,9]
