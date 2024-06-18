@@ -5,7 +5,7 @@
 # x = iter(lis)
 # print(type(x))
 # print(x)
-# y = "GAuRAV"
+# y = "GAURAV"
 # z = iter(y)
 # print(dir(y))
 # print(dir(z))
