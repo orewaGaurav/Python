@@ -94,3 +94,38 @@
 # mybutton.pack()
 # root.mainloop()
 
+# from tkinter import *
+# window = Tk()
+# window.title("Scale Example")
+# window.geometry('800x200')
+# scale = Scale(window,from_=0,to =1000,orient = HORIZONTAL)
+# scale.pack()
+# window.mainloop()
+
+# from tkinter import *
+# window = Tk()
+# window.title("Scale Example")
+# window.geometry('800x200')
+# scale = Scale(window,from_=0,to =100,orient = VERTICAL)
+# scale.pack()
+# window.mainloop()
+
+# from tkinter import* 
+# from tkinter import messagebox
+# root=Tk()
+# root.geometry("750x750")
+# myframe=LabelFrame(root,text='Registration')
+# myframe.pack()
+# mylabel1=Label(myframe,text ='name')
+# mylabel1.grid(rows=1,column=1)
+# ent=Entry(myframe,width=30,borderwidth=5)
+# ent.grid(rows=1,column=2)
+# def click():
+#     x=ent.get()
+#     mylabel1=Label(myframe,text='successfully')
+#     mylabel1.grid(row=4,column=4)
+#     ent.delete(0,END)
+#     messagebox.showinfo("Information","Successfully registered")
+# mybutton=Button(myframe, text = 'Submit',command=click)
+# mybutton.grid(rows=2,column=2)
+# root.mainloop()
