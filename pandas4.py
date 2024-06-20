@@ -54,3 +54,27 @@ df10.insert(2,"dekhleya",["gau",45,"pri"])
 print(df10)
 del df10["dekhleya"]
 print(df10)
+
+#pop method
+df11 = df10.pop("marks")
+print(df11)
+# print(df10)
+df10.drop("addres",axis=1,inplace=True)
+print(df10)
+
+#drop the row
+df12=df8.drop(1,inplace =True)
+print(df8)
+print(df12)
+
+#rename the existing column
+df10.rename(columns={"name":"std_name"},inplace =True)
+print(df10)
+
+#creating a dataframe using numpy random function
+dfa = pd.DataFrame(np.random.rand(250,5))
+print(dfa)
+print(dfa.head())#it will print first five value
+print(dfa.tail())#it will print last five value
+print(dfa.head(10))
+
