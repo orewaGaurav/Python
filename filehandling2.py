@@ -10,8 +10,8 @@ print(c1)
 # dc.to_excel(r"/Users/gauravkumar/Desktop/Telegram/dic.xlsx")
 
 # # to call a excel file
-# variable =pd.read_excel(r"/Users/gauravkumar/Desktop/Telegram/dic.xlsx")
-# print(variable)
+# ariable =pd.read_excel(r"/Users/gauravkumar/Desktop/Telegram/dic.xlsx")
+# print(vvariable)
 
 # #to make txtfile
 # # np.savetxt(r'/Users/gauravkumar/Desktop/Telegram/dataframe.txt',dc,fmt="%s")
