@@ -11,3 +11,5 @@ plt.show()
 sns.jointplot(x='clarity',y = 'depth',data =d,color ="olive")
 plt.plot()
 plt.show()
+
+
